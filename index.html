@@ -1,0 +1,27 @@
+---
+layout: default
+title: Daily Feeds Blog
+---
+
+# 📚 欢迎来到 Daily Feeds Blog
+
+这是我的每日待办事项和随笔记录。
+
+## 📝 最新文章
+
+{% for post in site.posts limit: 5 %}
+<article>
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="date">{{ post.date | date: "%Y年%m月%d日" }}</p>
+  {{ post.excerpt }}
+</article>
+{% endfor %}
+
+## 📂 分类
+
+- [待办事项](/tags/#todo)
+- [随笔](/tags/#notes)
+
+---
+
+*由 GitHub Pages + Jekyll 驱动*

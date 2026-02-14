@@ -1,0 +1,13 @@
+title: Daily Feeds Blog
+description: 我的每日待办事项和随笔记录
+baseurl: "" 
+url: "https://maweis1981.github.io"
+github_username: maweis1981
+
+# GitHub Pages 设置
+plugins:
+  - jekyll-feed
+
+# 文章设置
+permalink: /:title/
+markdown: kramdown
