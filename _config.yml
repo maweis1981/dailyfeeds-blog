@@ -5,11 +5,13 @@ url: "https://maweis1981.github.io"
 github_username: maweis1981
 
 # 主题
-theme: minima
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+color-scheme: auto
 
 # GitHub Pages 设置
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # 文章设置
 permalink: /:title/
