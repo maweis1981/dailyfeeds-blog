@@ -7,6 +7,7 @@ author: Max (Ma Wei)
 location: Singapore
 series: AI-Native Engineering
 part: 1
+categories: [AI-Native Engineering]
 tags:
   - AI-Native Engineering
   - Claude Code
@@ -15,8 +16,6 @@ tags:
   - Developer Tools
 canonical_url: https://maweis.com/ai-native-engineering/01
 ---
-
-# I Moved My Development to Phones
 
 ## Notes From the AI Perpetual Motion Machine
 
