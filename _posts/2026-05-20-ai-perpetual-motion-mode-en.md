@@ -98,7 +98,7 @@ That's it.
 
 There's one more phone on the desk. **It doesn't run Claude. It runs TestFlight.**
 
-I'm building Mira ([mira.gift](https://mira.gift)), a React Native AI product.
+We build AI products at [NGMOB](https://ngmob.com) — including [Kolens](https://kolens.ai) and [GoGlow AI](https://goglowai.com).
 
 Claude writes the code → CI/CD ships → a new build pushes to TestFlight automatically.
 
@@ -230,7 +230,7 @@ That last point needs explaining.
 
 When your own product's services are exposed via MCP, Claude can **use MCP to simulate the user-product interaction that would happen during Vibe Coding** — testing what it just wrote, itself.
 
-For Mira: if image generation, subscription validation, and user profile APIs are all MCP-exposed, Claude in a cloud session can write code and then immediately simulate a user flow through MCP.
+For our products: if image generation, subscription validation, and user profile APIs are all MCP-exposed, Claude in a cloud session can write code and then immediately simulate a user flow through MCP.
 
 Write → verify → fix → re-verify — **without me in the loop**.
 
@@ -560,9 +560,9 @@ What's coming:
 
 ## About the Author
 
-Max ([@maweis1981](https://github.com/maweis1981)) — independent developer, founder of Mira ([mira.gift](https://mira.gift)).
+Max ([@maweis1981](https://github.com/maweis1981)) — independent developer, founder of [NGMOB](https://ngmob.com) (products include [Kolens](https://kolens.ai) and [GoGlow AI](https://goglowai.com)).
 
-Based in Singapore. Builds AI products at NGMOB PTE LTD using the perpetual motion machine model, and researches the evolution of **AI-Native Engineering** in parallel.
+Based in Singapore. Builds AI products at NGMOB using the perpetual motion machine model, and researches the evolution of **AI-Native Engineering** in parallel.
 
 - Site: [maweis.com](https://maweis.com)
 - GitHub: [github.com/maweis1981](https://github.com/maweis1981)
