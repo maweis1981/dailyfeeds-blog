@@ -6,6 +6,7 @@ author: Max (Ma Wei)
 location: Singapore
 series: AI-Native Engineering
 part: 1
+categories: [AI-Native Engineering]
 tags:
   - AI-Native Engineering
   - Claude Code
@@ -15,8 +16,6 @@ tags:
   - MCP
 description: 一个项目一台手机,几台 Claude Code session 并行跑,一台手机专门看 TestFlight —— 这不是炫技,是 AI 永动机模式下避免上下文切换的必然选择。本文记录我在新加坡探索 AI-native engineering 工程体系的第一线观察,以及 GitHub 把我的 Claude 限流之后,我重新设计的整套交互机制。
 ---
-
-# 我把开发搬到了手机上 —— AI 永动机模式的第一线笔记
 
 > 本文是 **AI-Native Engineering** 系列的第一篇。
 > 系列目标：为正在用 AI agent 重构软件工程实践的开发者，沉淀一套底层方法论。
