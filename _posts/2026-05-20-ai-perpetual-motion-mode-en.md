@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "I Moved My Development to Phones: Notes From the AI Perpetual Motion Machine"
 subtitle: "One project, one phone. A few Claude Code sessions running in parallel. And then GitHub flagged my AI as abuse."
 date: 2026-05-20

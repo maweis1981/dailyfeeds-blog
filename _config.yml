@@ -4,6 +4,9 @@ baseurl: "/dailyfeeds-blog"
 url: "https://maweis1981.github.io"
 github_username: maweis1981
 
+# 主题
+theme: minima
+
 # GitHub Pages 设置
 plugins:
   - jekyll-feed

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "我把开发搬到了手机上 —— AI 永动机模式的第一线笔记"
 date: 2026-05-20
 author: Max (Ma Wei)
