@@ -9,13 +9,13 @@ title: Daily Feeds Blog
 
 ## 🎮 小游戏
 
-- [🐍 贪吃蛇游戏](/snake.html) - 经典贪吃蛇，可以在网页上玩！
+- [🐍 贪吃蛇游戏]({{ '/snake.html' | relative_url }}) - 经典贪吃蛇，可以在网页上玩！
 
 ## 📝 最新文章
 
 {% for post in site.posts limit: 5 %}
 <article>
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
   <p class="date">{{ post.date | date: "%Y年%m月%d日" }}</p>
   {{ post.excerpt }}
 </article>
@@ -23,8 +23,8 @@ title: Daily Feeds Blog
 
 ## 📂 分类
 
-- [待办事项](/tags/#todo)
-- [随笔](/tags/#notes)
+- [待办事项]({{ '/tags/#todo' | relative_url }})
+- [随笔]({{ '/tags/#notes' | relative_url }})
 
 ---
 
