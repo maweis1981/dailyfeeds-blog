@@ -12,14 +12,14 @@ tags:
   - 独立开发
   - 设计驱动
 description: 拆解 (Not Boring) Camera：它如何在被免费系统应用占满的红海里，靠体验+信任+套件撑起订阅生意，以及对独立开发者的 9 条可迁移打法。
-# cover/image：TODO 换成你自己图床的封面图后再启用
-# image:
-#   path: /assets/img/not-boring-camera/cover.jpg
+image:
+  path: /assets/img/not-boring-camera/cover.jpg
+  alt: (Not Boring) Camera 的标志性"实体相机"式界面
 ---
 
 <!--
 发布前请注意：
-1) 正文内嵌图片现为热链 Epic Tutorials 图床（研究引用），公开发布前建议下载后改用你自己的图床/CDN，避免失效与版权问题。
+1) 正文内嵌图片已下载到 /assets/img/not-boring-camera/ 本地引用（原为 Epic Tutorials 图床热链，研究性引用并已注明出处）；如需替换为自有图床/CDN 可直接更新这些文件。
 2) 本文当前在 feature 分支 / 草稿 PR 中评审；确认无误后再合并到 main 发布。
 3) front-matter 字段已按本博客（Jekyll / Chirpy）调整。
 -->
@@ -29,7 +29,7 @@ description: 拆解 (Not Boring) Camera：它如何在被免费系统应用占�
 > **下载（新加坡区）**：<https://apps.apple.com/sg/app/not-boring-camera/id6737783441>
 > 报告日期：2026-06-17
 
-![Not Boring Camera 概览](https://epictutorials.com/cdn/shop/articles/Not-Boring-Camera-App-for-iPhone-Blog-Thumb_c60fe7df-d27b-4ac4-acf1-14d1023315ca.jpg?v=1749166288)
+![Not Boring Camera 概览](/assets/img/not-boring-camera/cover.jpg)
 _图：(Not Boring) Camera 的标志性"实体相机"式界面。（图源：Epic Tutorials 评测）_
 
 ---
@@ -71,7 +71,7 @@ _图：(Not Boring) Camera 的标志性"实体相机"式界面。（图源：Epi
 
 ### 2.1 SuperRAW™ —— 反"计算摄影"的技术立场
 
-![SuperRAW](https://cdn.shopify.com/s/files/1/0606/6687/1907/files/Not-Boring-Camera-Super-RAW.jpg?v=1749166163)
+![SuperRAW](/assets/img/not-boring-camera/superraw.jpg)
 _图：SuperRAW 直取传感器原始数据。（图源：Epic Tutorials）_
 
 - **绕开计算摄影**：苹果 ProRAW 仍经较重处理，常被批"过曝、过锐、HDR 痕迹重、塑料感"。SuperRAW 在计算介入**之前**就取走 Bayer 原始数据，配合自家 Styles / LUT 输出。
@@ -82,14 +82,14 @@ _图：SuperRAW 直取传感器原始数据。（图源：Epic Tutorials）_
 
 ### 2.2 3D LUT 调色 + Photo Lab —— 把后期前置
 
-![LUT 导入与 Styles](https://cdn.shopify.com/s/files/1/0606/6687/1907/files/Not-Boring-Camera-SuperRAW-Styles-LUT-Import.jpg?v=1749165899)
+![LUT 导入与 Styles](/assets/img/not-boring-camera/lut-import.jpg)
 _图：Style Dial 与 LUT 导入。（图源：Epic Tutorials）_
 
 - 号称**首个支持专业 3D LUT 的手机相机**：用内置预设、导入创作者 LUT、或自制导入（上限 50 个）。
 - **Photo Lab（2026 年新增）**：非破坏式轻后期——显影 SuperRAW、调曝光/HDR/白平衡、切换胶片 Style 并调强度，"改了还能反悔"。
 - 第三方生态已经长出来：评测者 Epic Tutorials 专门做了一套"Epic Boring LUT Pack"卖给 !Camera 用户——**别人在为你的 App 生产可售卖的内容**，这是平台化的早期信号。
 
-![自定义 LUT 胶片观感](https://cdn.shopify.com/s/files/1/0606/6687/1907/files/Not-Boring-Camera-App-iPhone-Custom-LUTs-EPIC-Film-Looks.jpg?v=1749165442)
+![自定义 LUT 胶片观感](/assets/img/not-boring-camera/custom-luts.jpg)
 _图：不同 LUT 下的成片观感。（图源：Epic Tutorials）_
 
 ### 2.3 交互层 —— 游戏化的"实体感"
